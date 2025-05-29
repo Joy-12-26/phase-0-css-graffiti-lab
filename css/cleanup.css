@@ -1,1 +1,25 @@
-/* write your override styles here */
+ /* Neutralize all graffiti tags */
+#tag-2,
+#tag-3,
+#tag-4,
+#tag-5,
+#tag-6,
+#tag-7,
+.tag-1,
+.slick,
+.wicked {
+  all: unset !important;
+  display: block !important;
+  width: auto !important;
+  height: auto !important;
+  background: none !important;
+  color: inherit !important;
+  transform: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  opacity: 1 !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  text-decoration: none !important;
+  text-shadow: none !important;
+}
